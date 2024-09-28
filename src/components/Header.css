@@ -1,13 +1,18 @@
-.show-when-mobile {
+.myHeader .show-when-mobile {
   display: none;
 }
 
 @media (max-width: 800px) {
-  .show-when-mobile {
+  .myHeader .show-when-mobile {
     display: block;
   }
 
-  .hide-when-mobile {
+  .myHeader .hide-when-mobile {
     display: none;
   }
+}
+
+
+.myHeader .amgad{
+  background-color: brown;
 }

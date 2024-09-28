@@ -3,12 +3,12 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <>
-      <footer>
+    <div className="myFooter">
+      <footer className="amgad">
         Designed and developed by Courses4Arab.com
         <span>🧡</span>
       </footer>
-    </>
+    </div>
   );
 };
 

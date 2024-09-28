@@ -4,8 +4,8 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <>
-      <header className="hide-when-mobile">
+    <div className="myHeader">
+      <header className="hide-when-mobile amgad">
         <h1>
           <Link to="/">Courses 4 Arab</Link>
         </h1>
@@ -65,7 +65,10 @@ const Header = () => {
           </li>
         </ul>
       </header>
-      <header style={{ backgroundColor: "red" }} className="show-when-mobile">
+      <header
+        style={{ backgroundColor: "darkslategrey" }}
+        className="show-when-mobile"
+      >
         <h1>Courses 4 Arab</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
@@ -133,7 +136,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 };
 
