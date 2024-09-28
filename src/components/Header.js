@@ -1,63 +1,64 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
       <header className="hide-when-mobile">
         <h1>
-          <a href="/">Courses 4 Arab</a>
+          <Link to="/">Courses 4 Arab</Link>
         </h1>
         <ul className="flex">
           <li className="main-list">
-            <a className="main-link" href="/html">
+            <NavLink className="main-link" to="/html">
               HTML
-            </a>
+            </NavLink>
             <ul className="sub-ul">
               <li>
-                <a href="/html">Full Course</a>
+                <Link to="/html">Full Course</Link>
               </li>
               <li>
-                <a href="/html">Crash Course</a>
+                <Link to="/html">Crash Course</Link>
               </li>
               <li>
-                <a href="/html">learn in 1h</a>
+                <Link to="/html">learn in 1h</Link>
               </li>
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="/css">
+            <NavLink className="main-link" to="/css">
               CSS
-            </a>
+            </NavLink>
             <ul className="sub-ul">
               <li>
-                <a href="/css">Full Course</a>
+                <Link to="/css">Full Course</Link>
               </li>
               <li>
-                <a href="/css">CSS Examples</a>
+                <Link to="/css">CSS Examples</Link>
               </li>
               <li className="mini-projects">
-                <a href="/css">mini projects&nbsp; + </a>
+                <Link to="/css">mini projects&nbsp; + </Link>
                 <ul className="sub-sub-ul">
                   <li>
-                    <a href="/css">project 1</a>
+                    <Link to="/css">project 1</Link>
                   </li>
                   <li>
-                    <a href="/css">project 2</a>
+                    <Link to="/css">project 2</Link>
                   </li>
                   <li>
-                    <a href="/css">project 3</a>
+                    <Link to="/css">project 3</Link>
                   </li>
                 </ul>
               </li>
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="/js">
+            <NavLink className="main-link" to="/js">
               JavaScript
-            </a>
+            </NavLink>
             <ul className="sub-ul sub-of-js">
               <li>
-                <a href="/js">coming soon🔥</a>
+                <Link to="/js">coming soon🔥</Link>
               </li>
             </ul>
           </li>
@@ -77,13 +78,13 @@ const Header = () => {
             <input id="html" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="/html">Full Course</a>
+                <Link to="/html">Full Course</Link>
               </li>
               <li>
-                <a href="/html">Crash Course</a>
+                <Link to="/html">Crash Course</Link>
               </li>
               <li>
-                <a href="/html">learn in 1h</a>
+                <Link to="/html">learn in 1h</Link>
               </li>
             </ul>
           </div>
@@ -94,10 +95,10 @@ const Header = () => {
             <input id="css" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="/css">Full Course</a>
+                <Link to="/css">Full Course</Link>
               </li>
               <li>
-                <a href="/css">CSS Examples</a>
+                <Link to="/css">CSS Examples</Link>
               </li>
               <li>
                 <label className="mini-projects" htmlFor="mini">
@@ -106,13 +107,13 @@ const Header = () => {
                 <input id="mini" type="checkbox" />
                 <ul className="sub-sub-div">
                   <li>
-                    <a href="/css">project 1</a>
+                    <Link to="/css">project 1</Link>
                   </li>
                   <li>
-                    <a href="/css">project 2</a>
+                    <Link to="/css">project 2</Link>
                   </li>
                   <li>
-                    <a href="/css">project 3</a>
+                    <Link to="/css">project 3</Link>
                   </li>
                 </ul>
               </li>
@@ -125,7 +126,7 @@ const Header = () => {
             <input id="js" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="/js">coming soon🔥</a>
+                <Link to="/js">coming soon🔥</Link>
               </li>
             </ul>
           </div>
