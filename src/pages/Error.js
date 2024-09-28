@@ -2,14 +2,14 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const Error = () => {
   return (
     <>
       <Header />
-      <main>Home Page</main>
+      <main>Sorry.........</main>
       <Footer />
     </>
   );
 };
 
-export default Home;
+export default Error;
